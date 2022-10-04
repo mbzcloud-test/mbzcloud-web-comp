@@ -1,4 +1,4 @@
-# mbzcloud-web-comp TSDX Template
+# mbzcloud-web-comp using TSDX Template
 
 > This TSDX setup is meant for developing libraries (not apps!) that can be published to NPM.
 
@@ -26,7 +26,3 @@ Two actions are added by default:
 
 - `main` which installs deps w/ cache, lints, tests, and builds on all pushes against a Node and OS matrix
 - `size` which comments cost comparison of your library on every pull request using [`size-limit`](https://github.com/ai/size-limit)
-
-## Optimizations
-
-Please see the main `tsdx` [optimizations docs](https://github.com/palmerhq/tsdx#optimizations).
