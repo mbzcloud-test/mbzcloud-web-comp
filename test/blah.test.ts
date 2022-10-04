@@ -1,7 +1,7 @@
-import { sum } from '../src';
+//import { greet } from '../src';
 
-describe('blah', () => {
-  it('works', () => {
-    expect(sum(1, 1)).toEqual(2);
-  });
+it('console.log the text "Hello, World!"', () => {
+  console.log = jest.fn();
+  log('Hello, World!');
+  expect(console.log).toHaveBeenCalledWith('Hello, World!');
 });
