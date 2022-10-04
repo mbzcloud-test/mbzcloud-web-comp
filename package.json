@@ -1,4 +1,12 @@
 {
+  "name": "@mbzcloud-test/mbzcloud-web-comp",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mbzcloud-test/mbzcloud-web-comp.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "version": "0.1.0",
   "license": "MIT",
   "main": "dist/index.js",
@@ -31,7 +39,6 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "mbzcloud-web-comp",
   "author": "TrevorNathan",
   "module": "dist/mbzcloud-web-comp.esm.js",
   "size-limit": [
