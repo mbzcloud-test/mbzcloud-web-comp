@@ -4,7 +4,7 @@ export const greetings =
 
 // default export
 const sum = (a: number, b: number) => {
-  return a + b;
+  return 'The sum is: ' + a + b;
 };
 
 export default sum;
