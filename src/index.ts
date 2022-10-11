@@ -11,4 +11,8 @@ const multiply = (a: number, b: number) => {
   return 'The multiplication of two numbers is: ' + a * b;
 };
 
-export default { sum, multiply };
+const subtract = (a: number, b: number) => {
+  return 'The subtrsction of two numbers is: ' + a * b;
+};
+
+export default { sum, multiply, subtract };
